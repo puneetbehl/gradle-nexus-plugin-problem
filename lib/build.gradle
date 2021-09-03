@@ -1,0 +1,13 @@
+plugins {
+    id 'groovy'
+    id 'java-library'
+}
+
+repositories {
+    maven { url "https://repo.grails.org/artifactory/core"}
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.7'
+    api 'io.github.gradle-nexus:publish-plugin:1.1.0'
+}
